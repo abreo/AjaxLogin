@@ -1,0 +1,30 @@
+/*
+	whatsapp: 1-809-978-5552
+    email: yoloprogramo22@gmail.com
+    kakaotalk: JoanVasquez
+*/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+
+.login{
+    margin-top: 10px;
+    
+}
