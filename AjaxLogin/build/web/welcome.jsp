@@ -4,6 +4,12 @@
     Author     : JoanVasquez
 --%>
 
+<!--
+    whatsapp: 1-809-978-5552
+    email: yoloprogramo22@gmail.com
+    kakaotalk: JoanVasquez
+-->
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>

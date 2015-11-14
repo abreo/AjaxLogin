@@ -43,6 +43,19 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
       out.write("\n");
       out.write("\n");
+      out.write("<!--\n");
+      out.write("    whatsapp: 1-809-978-5552\n");
+      out.write("    email: yoloprogramo22@gmail.com\n");
+      out.write("    kakaotalk: JoanVasquez\n");
+      out.write("-->\n");
+      out.write("\n");
+      out.write("\n");
+      out.write("<c:if test=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${!empty sessionScope.user}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\">\n");
+      out.write("    <c:redirect url=\"/welcome.jsp\"></c:redirect>\n");
+      out.write("</c:if>\n");
+      out.write("\n");
       out.write("\n");
       out.write("<!DOCTYPE html>\n");
       out.write("<html>\n");

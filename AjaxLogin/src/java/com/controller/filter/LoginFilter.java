@@ -1,10 +1,9 @@
 
 /* 
-    whatsapp: 1-809-978-5552
-    email: yoloprogramo22@gmail.com
-    kakaotalk: JoanVasquez
-*/
-
+ whatsapp: 1-809-978-5552
+ email: yoloprogramo22@gmail.com
+ kakaotalk: JoanVasquez
+ */
 package com.controller.filter;
 
 import com.models.login.LoginModel;
@@ -34,11 +33,9 @@ public class LoginFilter implements Filter {
             login = (LoginModel) rq.getSession().getAttribute("user");
 
             if (login != null) {
-                if (login.getEmail().equals("admin@gmail.com") || login.getPass().equals("1234")) {
-                    chain.doFilter(request, response);
-                } else {
-                    rq.getRequestDispatcher("index.jsp").forward(request, response);
-                }
+
+                chain.doFilter(request, response);
+
             } else {
                 rq.getRequestDispatcher("index.jsp").forward(request, response);
             }
